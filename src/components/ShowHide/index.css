@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(pink, skyblue);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 70px;
+  width: 120px;
+  background-color: grey;
+  border-radius: 10px;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin:20px;
+border-width:2px;  
+}
+
+.nameCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: black;
+}
+
+.btn {
+  height: 45px;
+  width: 120px;
+  background-color: white;
+  color: black;
+  border-color: violet;
+  border-radius: 10px;
+  margin: 10px;
+  border-width: 3px;
+}
